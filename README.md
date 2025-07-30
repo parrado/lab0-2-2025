@@ -3,7 +3,7 @@ Lab 0: Lógica de Programación (RA 1, RA 3 y RA 4) <br />
  </h1>
  <p align="center">
 Alexander López-Parrado, PhD. <br />
-Programación, I-2025 <br />
+Programación, II-2025 <br />
 GDSPROC <br />
 Uniquindío <br />
 </p>
