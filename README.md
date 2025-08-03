@@ -16,30 +16,33 @@ En ese sentido, la práctica de laboratorio contempla el repaso de estructuras d
 
 En esta sección repasará y pondrá en práctica de nuevo las sentencias condicionales del lenguaje de programación Python. Para lo anterior, considere el programa en el archivo [bsa.py](bsa.py) que estima el área de la superficie corporal (*Body Surface Area*) a partir del peso y estatura de una persona [[1]](#1).
 
-1. Ejecute el programa y realice pruebas con diferentes valores peso y estatura.
+1.	Ejecute el programa con distintos valores de altura y peso, tome nota de los resultados de BSA.
+2.	Cree un nuevo programa (```bsa_cat.py```) a partir de [bsa.py](bsa.py) que solicite al usuario altura y peso, calcule la superficie corporal con la función bsa(), y luego clasifique esa BSA según rangos clínicos reales que pueden consultar mediante ChatGPT u otra herramienta de IA (Inteligencia Artificial) generativa. No usar la herramienta IA para la generación del código.
+3.	Ahora use la herramienta IA para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
 
-2. Cree un nuevo programa (```hrzones2.py```) a partir de [hrzones.py](hrzones.py) que le solicite al usuario el valor de frecuencia cardiaca para un entrenamiento dado y le informe en qué zona de trabajo se realizó el entrenamiento (Z1, Z2, Z3, Z4 o Z5). Ayuda: Use la herramienta de Inteligencia Artificial (IA) Generativa ChatGPT para conocer sobre las zonas de trabajo, **no usarla para generar el código**.
-
-3. Ahora use ChatGPT para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
 
 ## Ciclos y Arreglos
 
 En esta sección se considerarán las sentencias para ciclos y el uso de arreglos en el lenguaje de programación Python. Para esto, considere los programas de la sección anterior.
 
-1. Cree un programa a partir de ```hrzones2.py``` que solicite al usuario un número de entrenamientos y que posteriormente solicite la frecuencia cardiaca promedio para cada una de ellos, calcular, almacenar e imprimir la zona de trabajo para cada uno de los entrenamientos.
-2. Modifique el programa del punto 1 para que se calcule e imprima el porcentaje de entrenamientos que se encuentra en cada una de las zonas de trabajo (Z1, Z2, Z3, Z4 y Z5).
-3. Ahora use ChatGPT para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
+1.	Cree un programa a partir de(```bsa_cat.py```) que solicite al usuario un número de personas y que posteriormente solicite la altura y el peso para cada una de ellas, calcule la superficie corporal individual y almacene la categoría correspondiente, al finalizar, imprima la lista completa de categorías obtenidas.
+2.	Modifique el programa del punto anterior para que se calcule e imprima el porcentaje de personas que se encuentran en cada una de las categorías (“Bajo”, “Normal” o “Alto”).
+3.	Ahora use ChatGPT para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
+
 
 
 
 
 ## Funciones
 
-Para terminar, en esta sección pondrá en práctica la creación de funciones en el lenguaje de programación Python. Recuerde que las funciones son construcciones que permiten crear código modular, escalable y de mayor legibilidad.
+Para terminar, en esta sección pondrá en práctica la creación de funciones en el lenguaje de programación Python. Recuerde que las funciones son construcciones que permiten crear código modular, escalable y de mayor legibilidad. Para lo anterior, considere el programa que construyó en el punto 2 de la sección [Sentencias Condicionales](#sentencias-condicionales).
 
-Para lo anterior, considere el programa que construyó en el punto 2 de la sección [Sentencias Condicionales](#sentencias-condicionales).
+Realice una modificación al programa para que se informe al usuario cuál es el rango clínico considerado como “Normal” en cuanto a superficie corporal, y además se le indique si su valor de BSA se encuentra dentro o fuera de ese rango. Para esto, deberá crear dos funciones:
+1. La primera función debe calcular y devolver los límites del rango “Normal” de BSA según los valores que ustedes hayan consultado.
+2. La segunda función debe usar ese resultado para construir e imprimir un mensaje interpretativo en el que se indique al usuario si su BSA está dentro, por debajo o por encima del rango esperado.
 
-1. Realice una modificación al programa para que se le informe al usuario los valores promedio de frecuencia cardiaca para que el entrenamiento se realice en Z2. Para lo anterior, cree una función que realice el cálculo de la frecuencia cardiaca para lograr un entrenamiento en Z2 de acuerdo a la edad del usuario.
+Ambas funciones deben trabajar juntas, y una debe depender del resultado de la otra. Asegúrese de reutilizar las funciones ya implementadas (bsa(), categorize_bsa(), etc.) y de mantener la claridad en la estructura del programa.
+
 
 ## Entrega del laboratorio
 
