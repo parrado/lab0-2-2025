@@ -17,7 +17,7 @@ En ese sentido, la práctica de laboratorio contempla el repaso de estructuras d
 En esta sección repasará y pondrá en práctica de nuevo las sentencias condicionales del lenguaje de programación Python. Para lo anterior, considere el programa en el archivo [bsa.py](bsa.py) que estima el área de la superficie corporal (*Body Surface Area*) a partir del peso y estatura de una persona [[1]](#1).
 
 1.	Ejecute el programa con distintos valores de altura y peso, tome nota de los resultados de BSA.
-2.	Cree un nuevo programa (```bsa_cat.py```) a partir de [bsa.py](bsa.py) que solicite al usuario altura y peso, calcule la superficie corporal con la función bsa(), y luego clasifique esa BSA según rangos clínicos reales que pueden consultar mediante ChatGPT u otra herramienta de IA (Inteligencia Artificial) generativa. No usar la herramienta IA para la generación del código.
+2.	Cree un nuevo programa (```bsa_cat.py```) a partir de [bsa.py](bsa.py) que solicite al usuario altura y peso, calcule la superficie corporal con la función  (```bsa```), y luego clasifique esa BSA según rangos clínicos reales que pueden consultar mediante ChatGPT u otra herramienta de IA (Inteligencia Artificial) generativa. No usar la herramienta IA para la generación del código.
 3.	Ahora use la herramienta IA para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
 
 
@@ -37,11 +37,7 @@ En esta sección se considerarán las sentencias para ciclos y el uso de arreglo
 
 Para terminar, en esta sección pondrá en práctica la creación de funciones en el lenguaje de programación Python. Recuerde que las funciones son construcciones que permiten crear código modular, escalable y de mayor legibilidad. Para lo anterior, considere el programa que construyó en el punto 2 de la sección [Sentencias Condicionales](#sentencias-condicionales).
 
-Realice una modificación al programa para que se informe al usuario cuál es el rango clínico considerado como “Normal” en cuanto a superficie corporal, y además se le indique si su valor de BSA se encuentra dentro o fuera de ese rango. Para esto, deberá crear dos funciones:
-1. La primera función debe calcular y devolver los límites del rango “Normal” de BSA según los valores que ustedes hayan consultado.
-2. La segunda función debe usar ese resultado para construir e imprimir un mensaje interpretativo en el que se indique al usuario si su BSA está dentro, por debajo o por encima del rango esperado.
-
-Ambas funciones deben trabajar juntas, y una debe depender del resultado de la otra. Asegúrese de reutilizar las funciones ya implementadas (bsa(), categorize_bsa(), etc.) y de mantener la claridad en la estructura del programa.
+1. Realice una modificación al programa para que se le informe al usuario el rango de peso para que su BSA sea considerada normal. Para lo anterior, cree una función que realice el cálculo del peso para lograr una BSA normal de acuerdo a la estatura del usuario.
 
 
 ## Entrega del laboratorio
