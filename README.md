@@ -17,7 +17,7 @@ En ese sentido, la práctica de laboratorio contempla el repaso de estructuras d
 En esta sección repasará y pondrá en práctica de nuevo las sentencias condicionales del lenguaje de programación Python. Para lo anterior, considere el programa en el archivo [bsa.py](bsa.py) que estima el área de la superficie corporal (*Body Surface Area*) a partir del peso y estatura de una persona [[1]](#1).
 
 1.	Ejecute el programa con distintos valores de altura y peso, tome nota de los resultados de BSA.
-2.	Cree un nuevo programa (```bsa_cat.py```) a partir de [bsa.py](bsa.py) que solicite al usuario altura y peso, calcule la superficie corporal con la función  (```bsa```), y luego clasifique esa BSA según rangos clínicos reales que pueden consultar mediante ChatGPT u otra herramienta de IA (Inteligencia Artificial) generativa. No usar la herramienta IA para la generación del código.
+2.	Cree un nuevo programa (```bsa_cat.py```) a partir de [bsa.py](bsa.py) que solicite al usuario altura y peso, calcule la superficie corporal con la función  (```bsa```), y luego clasifique esa BSA según rangos clínicos reales que pueden consultar mediante una herramienta de IA (Inteligencia Artificial) generativa (ChatGPT, DeepSeek, Gemini). No usar la herramienta IA para la generación del código.
 3.	Ahora use la herramienta IA para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
 
 
@@ -27,7 +27,7 @@ En esta sección se considerarán las sentencias para ciclos y el uso de arreglo
 
 1.	Cree un programa a partir de(```bsa_cat.py```) que solicite al usuario un número de personas y que posteriormente solicite la altura y el peso para cada una de ellas, calcule la superficie corporal individual y almacene la categoría correspondiente, al finalizar, imprima la lista completa de categorías obtenidas.
 2.	Modifique el programa del punto anterior para que se calcule e imprima el porcentaje de personas que se encuentran en cada una de las categorías (“Bajo”, “Normal” o “Alto”).
-3.	Ahora use ChatGPT para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
+3.	Ahora use la herramienta IA para generar el código del punto anterior, verifique el correcto funcionamiento del programa generado y compare con la implementación realizada por usted.
 
 
 
